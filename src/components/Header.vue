@@ -87,7 +87,8 @@ export default {
     .header__navigation {
         height: 3.5rem;
         display: grid;
-        grid-template-columns: 1fr auto 1fr;
+        /* grid-template-columns: 1fr auto 1fr; */
+        grid-template-columns: repeat(3, 1fr);
         align-items: center;
         /* text-transform: capitalize; */
     }
