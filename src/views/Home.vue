@@ -38,6 +38,8 @@
 							{{weather.list[weatherListIndex].weather[0].description}}
 						</p>
 					</div>	
+
+					<div class="weather__divider"></div>
 					
 					<div class="weather__wind">
 						<p>
@@ -222,6 +224,10 @@ export default {
 
 	.weather__description {
 		padding-right: 25px;
+	}
+
+	.weather__divider {
+		border-left: solid 1px white;
 	}
 
 	.weather__wind {

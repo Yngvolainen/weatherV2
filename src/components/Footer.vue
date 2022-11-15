@@ -61,7 +61,7 @@ export default {
         /* margin-right: 50px; */
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        /* align-items: flex-end; */
         overflow: hidden;
     }
     
@@ -72,7 +72,8 @@ export default {
 
     .forecast__items p {
         font-size: 0.8rem;
-        margin-right: 5px;
+        /* margin-right: 5px; */
+        text-align: center;
     }
     
     footer {
