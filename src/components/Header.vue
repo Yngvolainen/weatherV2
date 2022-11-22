@@ -96,6 +96,8 @@ export default {
     .header__location{
         max-width: 80%;
         max-height: 1em;
+        text-align: center;
+        justify-self: center;
     }
 
     .header__location h1 {
